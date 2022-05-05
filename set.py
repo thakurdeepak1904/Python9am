@@ -1,0 +1,10 @@
+fruits={"apple","banana","Orange","mango","carrot"}
+print(fruits)
+print(type(fruits))
+print(len(fruits))
+fruits.remove("apple")
+print(fruits)
+fruits.discard("carrot")
+print(fruits)
+fruits.pop()
+print(fruits)
